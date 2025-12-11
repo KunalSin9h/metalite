@@ -133,7 +133,7 @@ export const ConnectForm: React.FC<ConnectFormProps> = ({ onConnect, isLoading, 
                                     type="text"
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
-                                    className="col-span-2 h-8 px-2 text-sm rounded-sm bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#007FD4] outline-none"
+                                    className="col-span-2 h-8 px-2 text-sm rounded-sm bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#8B5CF6] outline-none"
                                     placeholder="My Production DB"
                                 />
                             </div>
@@ -146,7 +146,7 @@ export const ConnectForm: React.FC<ConnectFormProps> = ({ onConnect, isLoading, 
                                     type="text"
                                     value={host}
                                     onChange={(e) => setHost(e.target.value)}
-                                    className="col-span-2 h-8 px-2 text-sm rounded-sm bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#007FD4] outline-none"
+                                    className="col-span-2 h-8 px-2 text-sm rounded-sm bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#8B5CF6] outline-none"
                                     placeholder="127.0.0.1"
                                     required
                                 />
@@ -158,7 +158,7 @@ export const ConnectForm: React.FC<ConnectFormProps> = ({ onConnect, isLoading, 
                                     type="text"
                                     value={user}
                                     onChange={(e) => setUser(e.target.value)}
-                                    className="col-span-2 h-8 px-2 text-sm rounded-sm bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#007FD4] outline-none"
+                                    className="col-span-2 h-8 px-2 text-sm rounded-sm bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#8B5CF6] outline-none"
                                     placeholder="root"
                                     required
                                 />
@@ -171,7 +171,7 @@ export const ConnectForm: React.FC<ConnectFormProps> = ({ onConnect, isLoading, 
                                         type="text"
                                         value={keyPath}
                                         onChange={(e) => setKeyPath(e.target.value)}
-                                        className="w-full h-8 px-2 text-sm rounded-sm pr-8 bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#007FD4] outline-none"
+                                        className="w-full h-8 px-2 text-sm rounded-sm pr-8 bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#8B5CF6] outline-none"
                                         placeholder="~/.ssh/id_rsa"
                                         required
                                     />
@@ -186,7 +186,7 @@ export const ConnectForm: React.FC<ConnectFormProps> = ({ onConnect, isLoading, 
                                         type="text"
                                         value={dbPath}
                                         onChange={(e) => setDbPath(e.target.value)}
-                                        className="w-full h-8 px-2 text-sm rounded-sm pr-8 bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#007FD4] outline-none"
+                                        className="w-full h-8 px-2 text-sm rounded-sm pr-8 bg-[#1E1E1E] border border-[#3E3E3E] focus:border-[#8B5CF6] outline-none"
                                         placeholder="/var/db.sqlite"
                                         required
                                     />
@@ -214,7 +214,7 @@ export const ConnectForm: React.FC<ConnectFormProps> = ({ onConnect, isLoading, 
                             <button
                                 type="submit"
                                 disabled={isLoading}
-                                className="bg-[#0E639C] hover:bg-[#1177BB] text-white text-xs px-6 py-2 rounded-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+                                className="bg-[#7C3AED] hover:bg-[#6D28D9] text-white text-xs px-6 py-2 rounded-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium"
                             >
                                 {isLoading ? "Connecting..." : "Connect"}
                             </button>

@@ -41,5 +41,5 @@ textarea {
 
 input:focus,
 textarea:focus {
-  @apply border-[#007FD4] outline-none ring-1 ring-[#007FD4];
+  @apply border-[#8B5CF6] outline-none ring-1 ring-[#8B5CF6];
 }

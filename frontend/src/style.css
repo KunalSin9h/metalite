@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-[#1E1E1E] text-[#D4D4D4] antialiased;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Custom Scrollbar for "Native" feel */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#1E1E1E];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#424242] rounded-full border-2 border-[#1E1E1E];
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#4F4F4F];
+}
+
+/* Remove focus rings for mouse users, keep for keyboard */
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+input,
+textarea {
+  @apply bg-[#252526] border border-[#3E3E3E] text-[#CCCCCC] placeholder-[#6E6E6E];
+}
+
+input:focus,
+textarea:focus {
+  @apply border-[#007FD4] outline-none ring-1 ring-[#007FD4];
+}

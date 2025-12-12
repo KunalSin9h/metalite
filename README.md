@@ -1,18 +1,16 @@
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/9d24334a-0a4e-49d5-9da3-39b6ae54fd75" alt="Slite2000" width="200" height="200">
+<img width="1026" height="811" alt="image" src="https://github.com/user-attachments/assets/3e6979b6-c4c3-4b28-9c68-f109559640a7" />
 </div>
 
-**Slite2000** is a desktop application for managing and visualizing remote SQLite databases via SSH. It provides a clean, dark-themed interface inspired by tools like TablePlus, allowing you to execute queries and explore tables without manually downloading database files.
+**Slite2000** is a desktop application for managing and visualizing remote SQLite databases via SSH.
 
 
 ## Features
 
 -   **SSH Tunneling**: Connect securely to any remote server using SSH keys.
 -   **Remote Execution**: Run SQLite queries directly on the server; no file syncing required.
--   **Table Explorer**: Quickly view all tables in your database.
--   **Native Dark UI**: A sleek, flat design that blends perfectly with modern dark desktop environments.
+-   **Visualization & Distribution** Analysis
 -   **Saved Connections**: Store your frequently accessed servers for one-click connection.
--   **JSON/Table Output**: Visualize query results in a clean, sortable table.
 
 ## Prerequisites
 

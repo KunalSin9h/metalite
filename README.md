@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1026" height="811" alt="image" src="https://github.com/user-attachments/assets/3e6979b6-c4c3-4b28-9c68-f109559640a7" />
+<img width="1026" height="811" alt="image" src="https://github.com/user-attachments/assets/649876aa-3645-4cd5-bc36-3c88621ae671" />
 </div>
 
 <div align="center">
@@ -22,6 +22,10 @@ Desktop application for managing and visualizing remote SQLite databases via SSH
 
 ### Installation
 
+#### Pre Compiled Binaries
+
+Download `Metalite` from GitHub [Releases](https://github.com/KunalSin9h/metalite/releases).
+
 #### From Source
 
 1.  **Install Go**: Ensure you have Go 1.21+ installed.
@@ -32,8 +36,8 @@ Desktop application for managing and visualizing remote SQLite databases via SSH
     ```
 4.  **Clone & Build**:
     ```bash
-    git clone https://github.com/KunalSin9h/slite2000.git
-    cd slite2000
+    git clone https://github.com/KunalSin9h/metalite.git
+    cd metalite
     wails build
     ```
     The binary will be available in `build/bin/`.

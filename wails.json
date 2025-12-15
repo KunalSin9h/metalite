@@ -1,7 +1,7 @@
 {
   "$schema": "https://wails.io/schemas/config.v2.json",
-  "name": "slite2000",
-  "outputfilename": "slite2000",
+  "name": "Metalite",
+  "outputfilename": "metalite",
   "frontend:install": "npm install",
   "frontend:build": "npm run build",
   "frontend:dev:watcher": "npm run dev",

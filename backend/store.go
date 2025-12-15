@@ -20,7 +20,7 @@ func GetConfigDir() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	configDir := filepath.Join(home, ".slite2000")
+	configDir := filepath.Join(home, ".metalite")
 	if _, err := os.Stat(configDir); os.IsNotExist(err) {
 		err = os.MkdirAll(configDir, 0755)
 		if err != nil {

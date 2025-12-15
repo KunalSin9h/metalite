@@ -3,15 +3,15 @@ name: Wails Build
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 permissions:
   contents: write
 
 env:
   # Necessary for most environments
-  GO_VERSION: '1.21'
-  NODE_VERSION: '18'
+  GO_VERSION: "1.21"
+  NODE_VERSION: "18"
 
 jobs:
   build:
@@ -51,20 +51,20 @@ jobs:
       # Rename binary to include OS name
       - name: Rename Binary (Linux)
         if: matrix.os == 'ubuntu-latest'
-        run: mv build/bin/slite2000 build/bin/slite2000-linux-amd64
+        run: mv build/bin/metalite build/bin/metalite-linux-amd64
 
       - name: Rename Binary (Windows)
         if: matrix.os == 'windows-latest'
-        run: mv build/bin/slite2000.exe build/bin/slite2000-windows-amd64.exe
+        run: mv build/bin/metalite.exe build/bin/metalite-windows-amd64.exe
 
       - name: Rename Binary (macOS)
         if: matrix.os == 'macos-latest'
-        run: mv build/bin/slite2000.app/Contents/MacOS/slite2000 build/bin/slite2000-darwin-amd64
+        run: mv build/bin/metalite.app/Contents/MacOS/metalite build/bin/metalite-darwin-amd64
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: slite2000-${{ matrix.os }}
+          name: metalite-${{ matrix.os }}
           path: build/bin/*
 
   release:
@@ -78,8 +78,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            slite2000-ubuntu-latest/slite2000-linux-amd64
-            slite2000-windows-latest/slite2000-windows-amd64.exe
-            slite2000-macos-latest/slite2000-darwin-amd64
+            metalite-ubuntu-latest/metalite-linux-amd64
+            metalite-windows-latest/metalite-windows-amd64.exe
+            metalite-macos-latest/metalite-darwin-amd64
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

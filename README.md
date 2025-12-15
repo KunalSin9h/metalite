@@ -2,23 +2,27 @@
 <img width="1026" height="811" alt="image" src="https://github.com/user-attachments/assets/3e6979b6-c4c3-4b28-9c68-f109559640a7" />
 </div>
 
-### Slite2000 is a desktop application for managing and visualizing remote SQLite databases via SSH.</p>
+<div align="center">
+    <h1>🪓 Metalite</h1>
+</div>
 
-## Features
+Desktop application for managing and visualizing remote SQLite databases via SSH.</p>
+
+### Features
 
 -   **SSH Tunneling**: Connect securely to any remote server using SSH keys.
 -   **Remote Execution**: Run SQLite queries directly on the server; no file syncing required.
 -   **Visualization & Distribution** Analysis
 -   **Saved Connections**: Store your frequently accessed servers for one-click connection.
 
-## Prerequisites
+### Prerequisites
 
 -   **Local Machine**: Linux, macOS, or Windows.
 -   **Remote Server**: Must have `sqlite3` installed and accessible in the system PATH.
 
-## Installation
+### Installation
 
-### From Source
+#### From Source
 
 1.  **Install Go**: Ensure you have Go 1.21+ installed.
 2.  **Install Node.js**: Required for the frontend build.
@@ -34,7 +38,7 @@
     ```
     The binary will be available in `build/bin/`.
 
-## Usage
+### Usage
 
 1.  **Launch the App**: Run the generated binary.
 2.  **New Connection**:
@@ -46,7 +50,7 @@
 4.  **Connect**: Click "Connect" to open the dashboard.
 5.  **Query**: Select a table from the sidebar or type a custom SQL query and click "Run".
 
-## Development
+### Development
 
 To run the application in development mode with hot-reloading:
 
@@ -54,6 +58,6 @@ To run the application in development mode with hot-reloading:
 wails dev
 ```
 
-## License
+### License
 
 MIT

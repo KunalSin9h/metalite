@@ -1,12 +1,13 @@
 
 <div align="center">
     <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/b4ca1fdc-7ca5-4624-8739-8f644d78f576" />
-    <h1>Metalite</h1> <img width="160" height="50" alt="Untitled(8)" src="https://github.com/user-attachments/assets/ea1d2448-255c-4e7c-90f3-1f3c0e91e0e8" />
+    <h1>Metalite</h1>
 </div>
 <div align="center">
 <img width="1026" height="811" alt="image" src="https://github.com/user-attachments/assets/649876aa-3645-4cd5-bc36-3c88621ae671" />
 </div>
 
+[![Made at SafeDep](https://github.com/user-attachments/assets/ea1d2448-255c-4e7c-90f3-1f3c0e91e0e8)](https://safedep.io)
 
 Desktop application for managing and visualizing remote SQLite databases via SSH.</p>
 

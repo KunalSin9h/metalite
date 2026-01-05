@@ -1,9 +1,11 @@
-<div align="center">
-    <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/b4ca1fdc-7ca5-4624-8739-8f644d78f576" />
-    <h1>Metalite</h1> 
+<div align="right">
+    <a href="https://safedep.io"><img src="https://github.com/user-attachments/assets/50a0ebad-6dc8-461c-b86f-b8cc89a89045" alt="Made at SafeDep badge" /></a>
 </div>
 
-[![Made at SafeDep](https://github.com/user-attachments/assets/50a0ebad-6dc8-461c-b86f-b8cc89a89045)](https://safedep.io)
+<div align="center">
+    <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/b4ca1fdc-7ca5-4624-8739-8f644d78f576" />
+    <H1>Metalite</H1>
+</div>
 
 <div align="center">
 <img width="1026" height="811" alt="image" src="https://github.com/user-attachments/assets/649876aa-3645-4cd5-bc36-3c88621ae671" />
